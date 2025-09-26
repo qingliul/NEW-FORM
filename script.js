@@ -19,8 +19,8 @@ form.addEventListener("submit",function(e){
     {
         alert("Registration successful!");
         form.reset();
-        document.querySelectorAll(".form-group").forEach(group => {
-            group.className="form-group";
+        document.querySelectorAll(".form-item").forEach(group => {
+            group.className="form-item";
         });
     }
 });
