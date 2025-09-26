@@ -20,7 +20,7 @@ form.addEventListener("submit",function(e){
         alert("Registration successful!");
         form.reset();
         document.querySelectorAll(".form-item").forEach(group => {
-            group.className="form-item";
+        group.className=".form-item";
         });
     }
 });
